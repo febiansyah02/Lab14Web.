@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    margin: 3px;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: black;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #555;
+    color: white;
+}
